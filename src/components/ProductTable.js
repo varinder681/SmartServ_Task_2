@@ -10,7 +10,7 @@ const ProductTable = ({ fields, prod }) => {
   arrayProduct.sort((a, b) => b.popularity - a.popularity);
 
   return (
-    <div id="productTable" className="container">
+    <div className="container">
       <div className="header">
         {fields.map((field, idx) => {
           return (
