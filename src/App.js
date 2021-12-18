@@ -263,7 +263,7 @@ function App() {
       </div>
 
       <div className="container-btn-action">
-        <a href="/#productTable"><button onClick={handleShowProducts} className="btn-next">
+        <a href="#productTable"><button onClick={handleShowProducts} className="btn-next">
           Next
         </button></a>
         <button onClick={handleCancelShowProducts} className="btn-cancel">
